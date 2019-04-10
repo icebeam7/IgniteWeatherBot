@@ -1,0 +1,33 @@
+﻿{
+  "name": "IgniteWeatherBot",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "endpoint",
+      "appId": "2b46348b-bc52-4aa6-8ac0-60b0ec08bbd4",
+      "appPassword": "17sW[|Wjjy1iOg%:f0bLJE=M",
+      "endpoint": "https://igniteweatherbot.azurewebsites.net/api/messages",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "type": "luis",
+      "name": "IgniteWeatherBotBot",
+      "appId": "61fc183f-0eba-4a88-a48b-678751d1cef4",
+      "version": "0.1",
+      "authoringKey": "7d82662fe6b4485188c1909502798d7d",
+      "subscriptionKey": "7d82662fe6b4485188c1909502798d7d",
+      "region": "westus",
+      "id": "158"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
